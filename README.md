@@ -6,4 +6,4 @@ Self-hosted renovate in Github Actions
 
 Almost all is documented here: https://github.com/renovatebot/github-action
 
-The app has been created manually, the app installation should be part of the core repo.
+The app has been created manually and installed to all repos in my account.
