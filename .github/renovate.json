@@ -11,6 +11,26 @@
       ],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
+    },
+    {
+      "matchPackageNames": [
+        "renovatebot/renovate"
+      ],
+      "extractVersion": "^v(?<version>.*)$"
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "^\\.github/workflows/[^/]+\\.ya?ml$"
+      ],
+      "matchStringsStrategy": "combination",
+      "matchStrings": [
+        "renovate-version: (?<currentValue>.*?)\\s"
+      ],
+      "packageNameTemplate": "renovatebot/renovate",
+      "datasourceTemplate": "github-tags"
     }
   ]
 }
