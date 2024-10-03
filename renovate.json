@@ -1,9 +1,11 @@
 {
 	"platform": "github",
 	"platformCommit": "true",
-	"autodiscover": "true",
+	"autodiscover": true,
 	"allowedPostUpgradeCommands": [
 		".*"
 	],
-	"allowPostUpgradeCommandTemplating": "true"
+	"allowPostUpgradeCommandTemplating": true,
+	"onboarding": false,
+	"requireConfig": true
 }
