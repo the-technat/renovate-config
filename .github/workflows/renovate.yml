@@ -25,7 +25,7 @@ jobs:
   renovate:
     runs-on: ubuntu-latest
     steps:
-      - uses: dawidd6/action-download-artifact@v2
+      - uses: dawidd6/action-download-artifact@v6
         if: github.event.inputs.repoCache != 'disabled'
         continue-on-error: true
         with:
