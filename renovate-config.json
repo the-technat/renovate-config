@@ -7,5 +7,6 @@
 	],
 	"allowPostUpgradeCommandTemplating": true,
 	"onboarding": false,
-	"requireConfig": true
+	"requireConfig": true,
+  "forkProcessing": "enabled"
 }
