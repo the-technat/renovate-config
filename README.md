@@ -1,5 +1,7 @@
 # renovate-config
 
+**Outdated** switching back to Mend's Saas Renovate (one thing less to maintain...)
+
 Self-hosted renovate in Github Actions
 
 ## Setup
